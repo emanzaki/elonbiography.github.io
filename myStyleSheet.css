@@ -38,7 +38,7 @@ margin-bottom: -10px;
     font-size:1.25em;
     margin: 10px auto;
 }
-#name {
+.name {
     text-align:center;
     font-size: 100px;
     font-family: 'MonteCarlo', cursive;
@@ -48,24 +48,16 @@ margin-bottom: -10px;
     font-family: 'Georama', sans-serif;
     margin: 20px 20px;
 }
-.links
-{
-    
-    margin-top: 70px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 30px;
-   
-    
-}
+
 .link{
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.25em;
+    font-size: 1.5em;
+    letter-spacing: 2px; 
+    
 }
-.links :hover
+.link :hover
 {
     color: rgb(85, 84, 84);
 }
@@ -79,8 +71,43 @@ margin-bottom: -10px;
 }
 table {
     width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    
+    
 }
-td{
+
+td ,th{
     text-align: center;
-    padding: 5px;
+    padding: 0px auto 0 auto;
+    border: 1px rgba(255, 255, 255, 0.137) solid;
+    font-family: 'Georama', sans-serif;
+    padding:20px;
+}
+.quato
+{
+    color:white;
+    text-align: end;
+    font-family: 'Georama', sans-serif;
+    margin: 10px 10px 10px 0;
+    font-weight:bolder;
+}
+#sign
+{
+    color: white;
+    font-size:1em;
+    margin-bottom: 10px ;
+    text-align:right;
+    font-family: 'MonteCarlo', cursive;
+    
+}
+.quatos
+{   
+    float: right;
+    padding: 20px;
+    margin: 40px 60px 60px;
+    width: fit-content;
+    border: 1px rgba(255, 255, 255, 0.301) solid;
+    letter-spacing: 2px;
+    border-radius: 20px;
 }
